@@ -17,6 +17,9 @@ super + Escape
 # open firefox
 super + shift + f
 	/opt/firefox/firefox
+
+super + l
+	betterlockscreen --lock blur
  
 #
 # bspwm hotkeys
@@ -144,10 +147,10 @@ XF86AudioPlay
 
 # volume keys
 XF86AudioRaiseVolume
-	amixer -q sset Master 2%+
+	amixer -q sset Master 1%+
 
 XF86AudioLowerVolume
-	amixer -q sset Master 2%-	
+	amixer -q sset Master 1%-	
 
 XF86AudioMute
 	amixer -q sset Master toggle
