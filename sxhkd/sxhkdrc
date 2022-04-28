@@ -17,10 +17,13 @@ super + Escape
 # open firefox
 super + shift + f
 	/opt/firefox/firefox
-
+# Lock Screen
 super + l
 	betterlockscreen --lock blur
- 
+
+# Screenshot
+super + Print
+	flameshot gui
 #
 # bspwm hotkeys
 #
