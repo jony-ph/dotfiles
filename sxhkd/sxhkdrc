@@ -5,7 +5,11 @@
 # terminal emulator
 super + Return
 	kitty
- 
+
+# open file manager
+super + e
+	pcmanfm
+
 # program launcher
 super + @space
 	rofi -show run
