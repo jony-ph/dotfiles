@@ -154,10 +154,10 @@ XF86AudioPlay
 
 # volume keys
 XF86AudioRaiseVolume
-	amixer -q sset Master 1%+
+	pactl set-sink-volume 0 +5%
 
 XF86AudioLowerVolume
-	amixer -q sset Master 1%-	
+	pactl set-sink-volume 0 -5%	
 
 XF86AudioMute
 	amixer -q sset Master toggle
